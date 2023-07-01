@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    #done{
+        background: green;
+        text-decoration: line-through;
+    }
+}
